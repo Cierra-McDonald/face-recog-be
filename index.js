@@ -12,7 +12,7 @@ const db = knex({
       database : 'smart-brain'
     }
   });
-const register = require('./controllers/register');
+const register = require('./controllers/Register');
 const signin = require('./controllers/SignIn');
 const profile = require('./controllers/Profile');
 const updateImage = require('./controllers/Image');
